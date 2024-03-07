@@ -1,0 +1,1452 @@
+﻿# # THESIS ##
+# # Body Weight  
+
+
+# # WT 
+print("Body Weight — WT")
+
+
+# ND — Female
+FWTND4 <- c(11.5, 11.2, 12, 13, 15.5, 12.6, 13, 16.5)
+shapiro.test(FWTND4)
+mean(FWTND4)
+sd(FWTND4)
+
+
+FWTND5 <- c(16.9, 16, 17.4, 18.1, 16.8, 15.5, 15.3, 18.9)
+shapiro.test(FWTND5)
+mean(FWTND5)
+sd(FWTND5)
+
+
+FWTND6 <- c(16.8, 14.6, 16.5, 17.5, 16.3, 14.7, 13.9, 18.4)
+shapiro.test(FWTND6)
+mean(FWTND6)
+sd(FWTND6)
+
+
+FWTND7 <- c(17.7, 16, 17.2, 18.3, 17.6, 15.8, 16, 19.7)
+shapiro.test(FWTND7)
+mean(FWTND7)
+sd(FWTND7)
+
+
+FWTND8 <- c(18.2, 17, 16.9, 20.3, 17.7, 15.7, 16.2, 19.9)
+shapiro.test(FWTND8)
+mean(FWTND8)
+sd(FWTND8)
+
+
+FWTND9 <- c(18.8, 17.4, 17.7, 20.1, 18.1, 16.4, 17.3, 20.2)
+shapiro.test(FWTND9)
+mean(FWTND9)
+sd(FWTND9)
+
+
+FWTND10 <- c(19.2, 17.4, 17.2, 20.4, 20.1, 16.6, 18.2, 21.5)
+shapiro.test(FWTND10)
+mean(FWTND10)
+sd(FWTND10)
+
+
+
+
+
+
+# ND — Male
+MWTND4 <- c(14.5, 14.3, 14.5, 16.7, 16, 12, 15.3, 13.8)
+shapiro.test(MWTND4)
+mean(MWTND4)
+sd(MWTND4)
+
+
+MWTND5 <- c(22.7, 20.6, 21.1, 22.5, 20.4, 18.3, 19.2, 20.6)
+shapiro.test(MWTND5)
+mean(MWTND5)
+sd(MWTND5)
+
+
+MWTND6 <- c(22.6, 20.5, 21.3, 23.7, 21.6, 19.2, 18.9, 20.6)
+shapiro.test(MWTND6)
+mean(MWTND6)
+sd(MWTND6)
+
+
+MWTND7 <- c(24, 21.6, 22.5, 24.9, 24.3, 21, 21, 22.6)
+shapiro.test(MWTND7)
+mean(MWTND7)
+sd(MWTND7)
+
+
+MWTND8 <- c(25.3, 22.2, 22.8, 24.9, 24.5, 21.7, 21.3, 22.7)
+shapiro.test(MWTND8)
+mean(MWTND8)
+sd(MWTND8)
+
+
+MWTND9 <- c(25.8, 24.1, 23.7, 26.5, 25.8, 22.9, 22.1, 23.4)
+shapiro.test(MWTND9)
+mean(MWTND9)
+sd(MWTND9)
+
+
+MWTND10 <- c(26, 23.8, 23.8, 26.1, 21.3, 24.2, 22.8, 25)
+shapiro.test(MWTND10)
+mean(MWTND10)
+sd(MWTND10)
+
+
+
+
+
+
+# HFD — Female
+FWTHFD4 <- c(11.1, 9.2, 9.9, 9.9, 12.5, 12.8, 14.6, 16.8)
+shapiro.test(FWTHFD4)
+mean(FWTHFD4)
+sd(FWTHFD4)
+
+
+FWTHFD5 <- c(15.9, 15.9, 15.4, 16.5, 16.5, 17.8, 17.5, 19.4)
+shapiro.test(FWTHFD5)
+mean(FWTHFD5)
+sd(FWTHFD5)
+
+
+FWTHFD6 <- c(16.1, 15.7, 15.6, 16.8, 15.4, 16.2, 16.6, 19.5)
+shapiro.test(FWTHFD6)
+mean(FWTHFD6)
+sd(FWTHFD6)
+
+
+FWTHFD7 <- c(17.6, 16.5, 16.8, 17.8, 17.5, 17.1, 18.3, 20.6)
+shapiro.test(FWTHFD7)
+mean(FWTHFD7)
+sd(FWTHFD7)
+
+
+FWTHFD8 <- c(17.9, 15.8, 17.1, 17.4, 16.8, 16.9, 18.1, 21.3)
+shapiro.test(FWTHFD8)
+mean(FWTHFD8)
+sd(FWTHFD8)
+
+
+FWTHFD9 <- c(18.8, 17.6, 17.3, 17.9, 18.2, 17.8, 19.5, 22.5)
+shapiro.test(FWTHFD9)
+mean(FWTHFD9)
+sd(FWTHFD9)
+
+
+FWTHFD10 <- c(17.8, 18.7, 17, 17.9, 19.1, 19.3, 20.3, 22.3)
+shapiro.test(FWTHFD10)
+mean(FWTHFD10)
+sd(FWTHFD10)
+
+
+
+
+
+
+# HFD — Male
+MWTHFD4 <- c(12.2, 13.6, 14.5, 11.4, 12.2, 15.6, 10.7, 16.6)
+shapiro.test(MWTHFD4)
+mean(MWTHFD4)
+sd(MWTHFD4)
+
+
+MWTHFD5 <- c(19.1, 20.6, 22, 17.6, 20.1, 20.3, 16.8, 15.5)
+shapiro.test(MWTHFD5)
+mean(MWTHFD5)
+sd(MWTHFD5)
+
+
+MWTHFD6 <- c(19.9, 20.4, 22.1, 17.7, 20.9, 20.7, 19.3, 20.2)
+shapiro.test(MWTHFD6)
+mean(MWTHFD6)
+sd(MWTHFD6)
+
+
+MWTHFD7 <- c(21.3, 22.2, 23.1, 20.3, 22.4, 22.5, 22.2, 21.4)
+shapiro.test(MWTHFD7)
+mean(MWTHFD7)
+sd(MWTHFD7)
+
+
+MWTHFD8 <- c(21.3, 22.5, 24.1, 20.9, 22.9, 22.3, 23.2, 21.9)
+shapiro.test(MWTHFD8)
+mean(MWTHFD8)
+sd(MWTHFD8)
+
+
+MWTHFD9 <- c(24.7, 24.5, 26.1, 22.5, 25.9, 26, 26.3, 23.4)
+shapiro.test(MWTHFD9)
+mean(MWTHFD9)
+sd(MWTHFD9)
+
+
+MWTHFD10 <- c(24.6, 24.4, 27, 23.2, 28.5, 26.9, 27.4, 24.6)
+shapiro.test(MWTHFD10)
+mean(MWTHFD10)
+sd(MWTHFD10)
+
+
+
+
+
+
+
+
+# F vs. M (ND)
+print("F vs. M (ND)")
+
+
+print("F vs. M (ND)—4wks")
+bartlett_resulta <- bartlett.test(list(FWTND4, MWTND4))
+print(bartlett_resulta)
+resulta <- t.test(FWTND4, MWTND4, var.equal = TRUE)
+print(resulta)
+
+
+resulta_p <- c(resulta$p.value)
+adjusted_resulta_p <- p.adjust(resulta_p, method = "bonferroni")
+print("Adjusted p-values:")
+print(adjusted_resulta_p)
+
+
+
+
+
+
+print("F vs. M (ND)—5wks")
+bartlett_resultq <- bartlett.test(list(FWTND5, MWTND5))
+print(bartlett_resultq)
+resultq <- t.test(FWTND5, MWTND5, var.equal = TRUE)
+print(resultq)
+
+
+resultq_p <- c(resultq$p.value)
+adjusted_resultq_p <- p.adjust(resultq_p, method = "bonferroni")
+print("Adjusted p-values:")
+print(adjusted_resultq_p)
+
+
+
+
+
+
+print("F vs. M (ND)—6wks")
+bartlett_resultb <- bartlett.test(list(FWTND6, MWTND6))
+print(bartlett_resultb)
+resultb <- t.test(FWTND6, MWTND6, var.equal = TRUE)
+print(resultb)
+
+
+resultb_p <- c(resultb$p.value)
+adjusted_resultb_p <- p.adjust(resultb_p, method = "bonferroni")
+print("Adjusted p-values:")
+print(adjusted_resultb_p)
+
+
+
+
+
+
+print("F vs. M (ND)—7wks")
+bartlett_resultr <- bartlett.test(list(FWTND7, MWTND7))
+print(bartlett_resultr)
+resultr <- t.test(FWTND7, MWTND7, var.equal = TRUE)
+print(resultr)
+
+
+resultr_p <- c(resultr$p.value)
+adjusted_resultr_p <- p.adjust(resultr_p, method = "bonferroni")
+print("Adjusted p-values:")
+print(adjusted_resultr_p)
+
+
+
+
+
+
+print("F vs. M (ND)—8wks")
+bartlett_resultc <- bartlett.test(list(FWTND8, MWTND8))
+print(bartlett_resultc)
+resultc <- t.test(FWTND8, MWTND8, var.equal = TRUE)
+print(resultc)
+
+
+resultc_p <- c(resultc$p.value)
+adjusted_resultc_p <- p.adjust(resultc_p, method = "bonferroni")
+print("Adjusted p-values:")
+print(adjusted_resultc_p)
+
+
+
+
+
+
+print("F vs. M (ND)—9wks")
+bartlett_results <- bartlett.test(list(FWTND9, MWTND9))
+print(bartlett_results)
+results <- t.test(FWTND9, MWTND9, var.equal = TRUE)
+print(results)
+
+
+results_p <- c(results$p.value)
+adjusted_results_p <- p.adjust(results_p, method = "bonferroni")
+print("Adjusted p-values:")
+print(adjusted_results_p)
+
+
+
+
+
+
+print("F vs. M (ND)—10wks")
+bartlett_resultd <- bartlett.test(list(FWTND10, MWTND10))
+print(bartlett_resultd)
+resultd <- t.test(FWTND10, MWTND10, var.equal = TRUE)
+print(resultd)
+
+
+resultd_p <- c(resultd$p.value)
+adjusted_resultd_p <- p.adjust(resultd_p, method = "bonferroni")
+print("Adjusted p-values:")
+print(adjusted_resultd_p)
+
+
+
+
+
+
+
+
+# F vs. M (HFD)
+
+
+print("F vs. M (HFD)")
+
+
+print("F vs. M (HFD)—4wks")
+bartlett_resulte <- bartlett.test(list(FWTHFD4, MWTHFD4))
+print(bartlett_resulte)
+resulte <- t.test(FWTHFD4, MWTHFD4, var.equal = TRUE)
+print(resulte)
+
+
+resulte_p <- c(resulte$p.value)
+adjusted_resulte_p <- p.adjust(resulte_p, method = "bonferroni")
+print("Adjusted p-values:")
+print(adjusted_resulte_p)
+
+
+
+
+
+
+print("F vs. M (HFD)—5wks")
+bartlett_resultt <- bartlett.test(list(FWTHFD5, MWTHFD5))
+print(bartlett_resultt)
+resultt <- t.test(FWTHFD5, MWTHFD5, var.equal = TRUE)
+print(resultt)
+
+
+resultt_p <- c(resultt$p.value)
+adjusted_resultt_p <- p.adjust(resultt_p, method = "bonferroni")
+print("Adjusted p-values:")
+print(adjusted_resultt_p)
+
+
+
+
+
+
+print("F vs. M (HFD)—6wks")
+bartlett_resultf <- bartlett.test(list(FWTHFD6, MWTHFD6))
+# print(bartlett_resultf)
+# resultf <- t.test(FWTHFD6, MWTHFD6, var.equal = TRUE)
+# print(resultf)
+
+
+resultf <- wilcox.test(FWTHFD6, MWTHFD6)
+print(resultf)
+
+
+resultf_p <- c(resultf$p.value)
+adjusted_resultf_p <- p.adjust(resultf_p, method = "bonferroni")
+print("Adjusted p-values:")
+print(adjusted_resultf_p)
+
+
+
+
+
+
+print("F vs. M (HFD)—7wks")
+bartlett_resultu <- bartlett.test(list(FWTHFD7, MWTHFD7))
+print(bartlett_resultu)
+resultu <- t.test(FWTHFD7, MWTHFD7, var.equal = TRUE)
+print(resultu)
+
+
+resultu_p <- c(resultu$p.value)
+adjusted_resultu_p <- p.adjust(resultu_p, method = "bonferroni")
+print("Adjusted p-values:")
+print(adjusted_resultu_p)
+
+
+
+
+
+
+print("F vs. M (HFD)—8wks")
+bartlett_resultg <- bartlett.test(list(FWTHFD8, MWTHFD8))
+print(bartlett_resultg)
+resultg <- t.test(FWTHFD8, MWTHFD8, var.equal = TRUE)
+print(resultg)
+
+
+resultg_p <- c(resultg$p.value)
+adjusted_resultg_p <- p.adjust(resultg_p, method = "bonferroni")
+print("Adjusted p-values:")
+print(adjusted_resultg_p)
+
+
+
+
+
+
+print("F vs. M (HFD)—9wks")
+bartlett_resultv <- bartlett.test(list(FWTHFD9, MWTHFD9))
+print(bartlett_resultv)
+# resultv <- t.test(FWTHFD9, MWTHFD9, var.equal = TRUE)
+# print(resultv)
+
+
+resultv <- wilcox.test(FWTHFD9, MWTHFD9)
+print(resultv)
+
+
+resultv_p <- c(resultv$p.value)
+adjusted_resultv_p <- p.adjust(resultv_p, method = "bonferroni")
+print("Adjusted p-values:")
+print(adjusted_resultv_p)
+
+
+
+
+
+
+print("F vs. M (HFD)—10wks")
+bartlett_resulth <- bartlett.test(list(FWTHFD10, MWTHFD10))
+print(bartlett_resulth)
+resulth <- t.test(FWTHFD10, MWTHFD10, var.equal = TRUE)
+print(resulth)
+
+
+resulth_p <- c(resulth$p.value)
+adjusted_resulth_p <- p.adjust(resulth_p, method = "bonferroni")
+print("Adjusted p-values:")
+print(adjusted_resulth_p)
+
+
+
+
+
+
+
+
+# ND vs. HFD (F)
+print("ND vs. HFD (F)")
+
+
+print("ND vs. HFD (F)—4wks")
+bartlett_resulti <- bartlett.test(list(FWTND4, FWTHFD4))
+print(bartlett_resulti)
+resulti <- t.test(FWTND4, FWTHFD4, var.equal = TRUE)
+print(resulti)
+
+
+resulti_p <- c(resulti$p.value)
+adjusted_resulti_p <- p.adjust(resulti_p, method = "bonferroni")
+print("Adjusted p-values:")
+print(adjusted_resulti_p)
+
+
+
+
+
+
+print("ND vs. HFD (F)—5wks")
+bartlett_resultw <- bartlett.test(list(FWTND5, FWTHFD5))
+print(bartlett_resultw)
+resultw <- t.test(FWTND5, FWTHFD5, var.equal = TRUE)
+print(resultw)
+
+
+resultw_p <- c(resultw$p.value)
+adjusted_resultw_p <- p.adjust(resultw_p, method = "bonferroni")
+print("Adjusted p-values:")
+print(adjusted_resultw_p)
+
+
+
+
+
+
+print("ND vs. HFD (F)—6wks")
+bartlett_resultj <- bartlett.test(list(FWTND6, FWTHFD6))
+print(bartlett_resultj)
+# resultj <- t.test(FWTND6, FWTHFD6, var.equal = TRUE)
+# print(resultj)
+
+
+resultj <- wilcox.test(FWTND6, FWTHFD6)
+print(resultj)
+
+
+resultj_p <- c(resultj$p.value)
+adjusted_resultj_p <- p.adjust(resultj_p, method = "bonferroni")
+print("Adjusted p-values:")
+print(adjusted_resultj_p)
+
+
+
+
+
+
+print("ND vs. HFD (F)—7wks")
+bartlett_resultx <- bartlett.test(list(FWTND7, FWTHFD7))
+print(bartlett_resultx)
+resultx <- t.test(FWTND7, FWTHFD7, var.equal = TRUE)
+print(resultx)
+
+
+resultx_p <- c(resultx$p.value)
+adjusted_resultx_p <- p.adjust(resultx_p, method = "bonferroni")
+print("Adjusted p-values:")
+print(adjusted_resultx_p)
+
+
+
+
+
+
+print("ND vs. HFD (F)—8wks")
+bartlett_resultk <- bartlett.test(list(FWTND8, FWTHFD8))
+print(bartlett_resultk)
+resultk <- t.test(FWTND8, FWTHFD8, var.equal = TRUE)
+print(resultk)
+
+
+resultk_p <- c(resultk$p.value)
+adjusted_resultk_p <- p.adjust(resultk_p, method = "bonferroni")
+print("Adjusted p-values:")
+print(adjusted_resultk_p)
+
+
+
+
+
+
+print("ND vs. HFD (F)—9wks")
+bartlett_resulty <- bartlett.test(list(FWTND9, FWTHFD9))
+print(bartlett_resulty)
+# resulty <- t.test(FWTND9, FWTHFD9, var.equal = TRUE)
+# print(resulty)
+
+
+resulty <- wilcox.test(FWTND9, FWTHFD9)
+print(resulty)
+
+
+resulty_p <- c(resulty$p.value)
+adjusted_resulty_p <- p.adjust(resulty_p, method = "bonferroni")
+print("Adjusted p-values:")
+print(adjusted_resulty_p)
+
+
+
+
+
+
+print("ND vs. HFD (F)—10wks")
+bartlett_resultl <- bartlett.test(list(FWTND10, FWTHFD10))
+print(bartlett_resultl)
+resultl <- t.test(FWTND10, FWTHFD10, var.equal = TRUE)
+print(resultl)
+
+
+resultl_p <- c(resultl$p.value)
+adjusted_resultl_p <- p.adjust(resultl_p, method = "bonferroni")
+print("Adjusted p-values:")
+print(adjusted_resultl_p)
+
+
+
+
+
+
+
+
+# ND vs. HFD (M)
+print("ND vs. HFD (M)")
+
+
+print("ND vs. HFD (M)—4wks")
+bartlett_resultm <- bartlett.test(list(MWTND4, MWTHFD4))
+print(bartlett_resultm)
+resultm <- t.test(MWTND4, MWTHFD4, var.equal = TRUE)
+print(resultm)
+
+
+resultm_p <- c(resultm$p.value)
+adjusted_resultm_p <- p.adjust(resultm_p, method = "bonferroni")
+print("Adjusted p-values:")
+print(adjusted_resultm_p)
+
+
+
+
+
+
+print("ND vs. HFD (M)—5wks")
+bartlett_resultz <- bartlett.test(list(MWTND5, MWTHFD5))
+print(bartlett_resultz)
+resultz <- t.test(MWTND5, MWTHFD5, var.equal = TRUE)
+print(resultz)
+
+
+resultz_p <- c(resultz$p.value)
+adjusted_resultz_p <- p.adjust(resultz_p, method = "bonferroni")
+print("Adjusted p-values:")
+print(adjusted_resultz_p)
+
+
+
+
+
+
+print("ND vs. HFD (M)—6wks")
+bartlett_resultn <- bartlett.test(list(MWTND6, MWTHFD6))
+print(bartlett_resultn)
+resultn <- t.test(MWTND6, MWTHFD6, var.equal = TRUE)
+print(resultn)
+
+
+resultn_p <- c(resultn$p.value)
+adjusted_resultn_p <- p.adjust(resultn_p, method = "bonferroni")
+print("Adjusted p-values:")
+print(adjusted_resultn_p)
+
+
+
+
+
+
+print("ND vs. HFD (M)—7wks")
+bartlett_resultaa <- bartlett.test(list(MWTND7, MWTHFD7))
+print(bartlett_resultaa)
+resultaa <- t.test(MWTND7, MWTHFD7, var.equal = TRUE)
+print(resultaa)
+
+
+resultaa_p <- c(resultaa$p.value)
+adjusted_resultaa_p <- p.adjust(resultaa_p, method = "bonferroni")
+print("Adjusted p-values:")
+print(adjusted_resultaa_p)
+
+
+
+
+
+
+print("ND vs. HFD (M)—8wks")
+bartlett_resulto <- bartlett.test(list(MWTND8, MWTHFD8))
+print(bartlett_resulto)
+resulto <- t.test(MWTND8, MWTHFD8, var.equal = TRUE)
+print(resulto)
+
+
+resulto_p <- c(resulto$p.value)
+adjusted_resulto_p <- p.adjust(resulto_p, method = "bonferroni")
+print("Adjusted p-values:")
+print(adjusted_resulto_p)
+
+
+
+
+
+
+print("ND vs. HFD (M)—9wks")
+bartlett_resultbb <- bartlett.test(list(MWTND9, MWTHFD9))
+print(bartlett_resultbb)
+resultbb <- t.test(MWTND9, MWTHFD9, var.equal = TRUE)
+print(resultbb)
+
+
+resultbb_p <- c(resultbb$p.value)
+adjusted_resultbb_p <- p.adjust(resultbb_p, method = "bonferroni")
+print("Adjusted p-values:")
+print(adjusted_resultbb_p)
+
+
+
+
+
+
+print("ND vs. HFD (M)—10wks")
+bartlett_resultp <- bartlett.test(list(MWTND10, MWTHFD10))
+print(bartlett_resultp)
+resultp <- t.test(MWTND10, MWTHFD10, var.equal = TRUE)
+print(resultp)
+
+
+resultp_p <- c(resultp$p.value)
+adjusted_resultp_p <- p.adjust(resultp_p, method = "bonferroni")
+print("Adjusted p-values:")
+print(adjusted_resultp_p)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Db.Db 
+print("Body Weight — Db.Db")
+
+
+# ND — Female
+FDb.DbND4 <- c(16.1, 18.6, 15.2, 15.4, 21, 19.3, 18.1, 17.1)
+shapiro.test(FDb.DbND4)
+mean(FDb.DbND4)
+sd(FDb.DbND4)
+
+
+FDb.DbND5 <- c(25.3, 5.5, 18.6, 24.9, 28.4, 27.3, 23.8, 25.1)
+shapiro.test(FDb.DbND5)
+mean(FDb.DbND5)
+sd(FDb.DbND5)
+
+
+FDb.DbND6 <- c(28.7, 28.4, 30.5, 27.8, 30, 30, 26.2, 27.7)
+shapiro.test(FDb.DbND6)
+mean(FDb.DbND6)
+sd(FDb.DbND6)
+
+
+FDb.DbND7 <- c(33.4, 32.7, 21.6, 32.7, 38, 37.3, 32.1, 36)
+shapiro.test(FDb.DbND7)
+mean(FDb.DbND7)
+sd(FDb.DbND7)
+
+
+FDb.DbND8 <- c(37.1, 38.1, 23.5, 37.7, 40.4, 39.4, 32.9, 39.1)
+shapiro.test(FDb.DbND8)
+mean(FDb.DbND8)
+sd(FDb.DbND8)
+
+
+FDb.DbND9 <- c(39.7, 40, 23, 40.4, 42.1, 41.6, 34.9, 43.1)
+shapiro.test(FDb.DbND9)
+mean(FDb.DbND9)
+sd(FDb.DbND9)
+
+
+FDb.DbND10 <- c(42.3, 42.7, 24.4, 43.6, 45.6, 46.1, 47.5, 46.9)
+shapiro.test(FDb.DbND10)
+mean(FDb.DbND10)
+sd(FDb.DbND10)
+
+
+
+
+
+
+# ND — Male
+MDb.DbND4 <- c(16.2, 16.2, 18.7, 17.5, 21.4, 16.8, 23.2)
+shapiro.test(MDb.DbND4)
+mean(MDb.DbND4)
+sd(MDb.DbND4)
+
+
+MDb.DbND5 <- c(26.5, 23.6, 27, 28.3, 30, 25.7, 31.4)
+shapiro.test(MDb.DbND5)
+mean(MDb.DbND5)
+sd(MDb.DbND5)
+
+
+MDb.DbND6 <- c(31.1, 26.2, 30.3, 33.4, 33, 31.5, 34.6)
+shapiro.test(MDb.DbND6)
+mean(MDb.DbND6)
+sd(MDb.DbND6)
+
+
+MDb.DbND7 <- c(36.7, 37.4, 35.3, 40.5, 38.8, 36, 40.9)
+shapiro.test(MDb.DbND7)
+mean(MDb.DbND7)
+sd(MDb.DbND7)
+
+
+MDb.DbND8 <- c(40.2, 32.8, 38.7, 45.2, 41.4, 38.5, 44.2)
+shapiro.test(MDb.DbND8)
+mean(MDb.DbND8)
+sd(MDb.DbND8)
+
+
+MDb.DbND9 <- c(42.7, 35.3, 39.1, 48.6, 45.5, 42.2, 47.8)
+shapiro.test(MDb.DbND9)
+mean(MDb.DbND9)
+sd(MDb.DbND9)
+
+
+MDb.DbND10 <- c(45.2, 34.5, 40.4, 51.1, 49.6, 46.6, 51.7)
+shapiro.test(MDb.DbND10)
+mean(MDb.DbND10)
+sd(MDb.DbND10)
+
+
+
+
+
+
+# HFD — Female
+FDb.DbHFD4 <- c(21, 21.1, 12.9, 18.8, 20.6, 16.9, 19, 21.6)
+shapiro.test(FDb.DbHFD4)
+mean(FDb.DbHFD4)
+sd(FDb.DbHFD4)
+
+
+FDb.DbHFD5 <- c(32.8, 33.7, 26.5, 30.8, 30, 27.8, 27.8, 29.3)
+shapiro.test(FDb.DbHFD5)
+mean(FDb.DbHFD5)
+sd(FDb.DbHFD5)
+
+
+FDb.DbHFD6 <- c(35.8, 38.1, 30.7, 34.2, 33.8, 31.2, 32.4, 35.1)
+shapiro.test(FDb.DbHFD6)
+mean(FDb.DbHFD6)
+sd(FDb.DbHFD6)
+
+
+FDb.DbHFD7 <- c(42.6, 46.5, 37.4, 40.7, 41.6, 40, 41.7, 42.8)
+shapiro.test(FDb.DbHFD7)
+mean(FDb.DbHFD7)
+sd(FDb.DbHFD7)
+
+
+FDb.DbHFD8 <- c(39.1, 47.8, 44, 41.8, 44, 43, 44.9, 44.5)
+shapiro.test(FDb.DbHFD8)
+mean(FDb.DbHFD8)
+sd(FDb.DbHFD8)
+
+
+FDb.DbHFD9 <- c(48.9, 54.6, 44.8, 45.3, 49.1, 47.9, 50.6, 49.6)
+shapiro.test(FDb.DbHFD9)
+mean(FDb.DbHFD9)
+sd(FDb.DbHFD9)
+
+
+FDb.DbHFD10 <- c(53, 57.3, 46.4, 49.7, 53.5, 51.8, 54.7, 53.8)
+shapiro.test(FDb.DbHFD10)
+mean(FDb.DbHFD10)
+sd(FDb.DbHFD10)
+
+
+
+
+
+
+# HFD — Male
+MDb.DbHFD4 <- c(17.2, 15, 19.7, 18.2, 16.8, 21.2, 14.8,20.5)
+shapiro.test(MDb.DbHFD4)
+mean(MDb.DbHFD4)
+sd(MDb.DbHFD4)
+
+
+MDb.DbHFD5 <- c(29.2, 26.8, 30.4, 31.7, 27.6, 31.9, 26, 30.8)
+shapiro.test(MDb.DbHFD5)
+mean(MDb.DbHFD5)
+sd(MDb.DbHFD5)
+
+
+MDb.DbHFD6 <- c(32.6, 31.7, 35.8, 36.8, 31.5, 34.9, 31.4, 34.9)
+shapiro.test(MDb.DbHFD6)
+mean(MDb.DbHFD6)
+sd(MDb.DbHFD6)
+
+
+MDb.DbHFD7 <- c(38.6, 39.7, 42.5, 44.1, 40.7, 43.8, 41.3, 43.3)
+shapiro.test(MDb.DbHFD7)
+mean(MDb.DbHFD7)
+sd(MDb.DbHFD7)
+
+
+MDb.DbHFD8 <- c(41.3, 41.6, 44.5, 46.7, 43.9, 46.7, 44.7, 46.9)
+shapiro.test(MDb.DbHFD8)
+mean(MDb.DbHFD8)
+sd(MDb.DbHFD8)
+
+
+MDb.DbHFD9 <- c(46.9, 45.7, 49.4, 53, 48.5, 50.8, 50.3, 50.9)
+shapiro.test(MDb.DbHFD9)
+mean(MDb.DbHFD9)
+sd(MDb.DbHFD9)
+
+
+MDb.DbHFD10 <- c(48.8, 47, 49.4, 55.2, 51.7, 55.1, 55.4, 55.3)
+shapiro.test(MDb.DbHFD10)
+mean(MDb.DbHFD10)
+sd(MDb.DbHFD10)
+
+
+
+
+
+
+# F vs. M (ND)
+print("F vs. M (ND)")
+
+
+print("F vs. M (ND)—4wks")
+bartlett_resulta <- bartlett.test(list(FDb.DbND4, MDb.DbND4))
+print(bartlett_resulta)
+resulta <- t.test(FDb.DbND4, MDb.DbND4, var.equal = TRUE)
+print(resulta)
+
+
+resulta_p <- c(resulta$p.value)
+adjusted_resulta_p <- p.adjust(resulta_p, method = "bonferroni")
+print("Adjusted p-values:")
+print(adjusted_resulta_p)
+
+
+
+
+
+
+print("F vs. M (ND)—5wks")
+bartlett_resultq <- bartlett.test(list(FDb.DbND5, MDb.DbND5))
+print(bartlett_resultq)
+# resultq <- t.test(FDb.DbND5, MDb.DbND5, var.equal = TRUE)
+# print(resultq)
+
+
+resultq <- wilcox.test(FDb.DbND5, MDb.DbND5)
+print(resultq)
+
+
+resultq_p <- c(resultq$p.value)
+adjusted_resultq_p <- p.adjust(resultq_p, method = "bonferroni")
+print("Adjusted p-values:")
+print(adjusted_resultq_p)
+
+
+
+
+
+
+
+
+print("F vs. M (ND)—6wks")
+bartlett_resultb <- bartlett.test(list(FDb.DbND6, MDb.DbND6))
+print(bartlett_resultb)
+resultb <- t.test(FDb.DbND6, MDb.DbND6, var.equal = TRUE)
+print(resultb)
+
+
+resultb_p <- c(resultb$p.value)
+adjusted_resultb_p <- p.adjust(resultb_p, method = "bonferroni")
+print("Adjusted p-values:")
+print(adjusted_resultb_p)
+
+
+
+
+
+
+print("F vs. M (ND)—7wks")
+bartlett_resultr <- bartlett.test(list(FDb.DbND7, MDb.DbND7))
+print(bartlett_resultr)
+# resultr <- t.test(FDb.DbND7, MDb.DbND7, var.equal = TRUE)
+# print(resultr)
+
+
+resultr <- wilcox.test(FDb.DbND7, MDb.DbND7)
+print(resultr)
+
+
+resultr_p <- c(resultr$p.value)
+adjusted_resultr_p <- p.adjust(resultr_p, method = "bonferroni")
+print("Adjusted p-values:")
+print(adjusted_resultr_p)
+
+
+
+
+
+
+print("F vs. M (ND)—8wks")
+bartlett_resultc <- bartlett.test(list(FDb.DbND8, MDb.DbND8))
+print(bartlett_resultc)
+# resultc <- t.test(FDb.DbND8, MDb.DbND8, var.equal = TRUE)
+# print(resultc)
+
+
+resultc <- wilcox.test(FDb.DbND8, MDb.DbND8)
+print(resultc)
+
+
+resultc_p <- c(resultc$p.value)
+adjusted_resultc_p <- p.adjust(resultc_p, method = "bonferroni")
+print("Adjusted p-values:")
+print(adjusted_resultc_p)
+
+
+
+
+
+
+print("F vs. M (ND)—9wks")
+bartlett_results <- bartlett.test(list(FDb.DbND9, MDb.DbND9))
+print(bartlett_results)
+# results <- t.test(FDb.DbND9, MDb.DbND9, var.equal = TRUE)
+# print(results)
+
+
+results <- wilcox.test(FDb.DbND9, MDb.DbND9)
+print(results)
+
+
+results_p <- c(results$p.value)
+adjusted_results_p <- p.adjust(results_p, method = "bonferroni")
+print("Adjusted p-values:")
+print(adjusted_results_p)
+
+
+
+
+
+
+print("F vs. M (ND)—10wks")
+bartlett_resultd <- bartlett.test(list(FDb.DbND10, MDb.DbND10))
+print(bartlett_resultd)
+# resultd <- t.test(FDb.DbND10, MDb.DbND10, var.equal = TRUE)
+# print(resultd)
+
+
+resultd <- wilcox.test(FDb.DbND10, MDb.DbND10)
+print(resultd)
+
+
+resultd_p <- c(resultd$p.value)
+adjusted_resultd_p <- p.adjust(resultd_p, method = "bonferroni")
+print("Adjusted p-values:")
+print(adjusted_resultd_p)
+
+
+
+
+
+
+
+
+# F vs. M (HFD)
+
+
+print("F vs. M (HFD)")
+
+
+print("F vs. M (HFD)—4wks")
+bartlett_resulte <- bartlett.test(list(FDb.DbHFD4, MDb.DbHFD4))
+print(bartlett_resulte)
+resulte <- t.test(FDb.DbHFD4, MDb.DbHFD4, var.equal = TRUE)
+print(resulte)
+
+
+resulte_p <- c(resulte$p.value)
+adjusted_resulte_p <- p.adjust(resulte_p, method = "bonferroni")
+print("Adjusted p-values:")
+print(adjusted_resulte_p)
+
+
+
+
+
+
+print("F vs. M (HFD)—5wks")
+bartlett_resultt <- bartlett.test(list(FDb.DbHFD5, MDb.DbHFD5))
+print(bartlett_resultt)
+resultt <- t.test(FDb.DbHFD5, MDb.DbHFD5, var.equal = TRUE)
+print(resultt)
+
+
+resultt_p <- c(resultt$p.value)
+adjusted_resultt_p <- p.adjust(resultt_p, method = "bonferroni")
+print("Adjusted p-values:")
+print(adjusted_resultt_p)
+
+
+
+
+
+
+print("F vs. M (HFD)—6wks")
+bartlett_resultf <- bartlett.test(list(FDb.DbHFD6, MDb.DbHFD6))
+print(bartlett_resultf)
+resultf <- t.test(FDb.DbHFD6, MDb.DbHFD6, var.equal = TRUE)
+print(resultf)
+
+
+resultf_p <- c(resultf$p.value)
+adjusted_resultf_p <- p.adjust(resultf_p, method = "bonferroni")
+print("Adjusted p-values:")
+print(adjusted_resultf_p)
+
+
+
+
+
+
+print("F vs. M (HFD)—7wks")
+bartlett_resultu <- bartlett.test(list(FDb.DbHFD7, MDb.DbHFD7))
+print(bartlett_resultu)
+resultu <- t.test(FDb.DbHFD7, MDb.DbHFD7, var.equal = TRUE)
+print(resultu)
+
+
+resultu_p <- c(resultu$p.value)
+adjusted_resultu_p <- p.adjust(resultu_p, method = "bonferroni")
+print("Adjusted p-values:")
+print(adjusted_resultu_p)
+
+
+
+
+
+
+print("F vs. M (HFD)—8wks")
+bartlett_resultg <- bartlett.test(list(FDb.DbHFD8, MDb.DbHFD8))
+print(bartlett_resultg)
+resultg <- t.test(FDb.DbHFD8, MDb.DbHFD8, var.equal = TRUE)
+print(resultg)
+
+
+resultg_p <- c(resultg$p.value)
+adjusted_resultg_p <- p.adjust(resultg_p, method = "bonferroni")
+print("Adjusted p-values:")
+print(adjusted_resultg_p)
+
+
+
+
+
+
+print("F vs. M (HFD)—9wks")
+bartlett_resultv <- bartlett.test(list(FDb.DbHFD9, MDb.DbHFD9))
+print(bartlett_resultv)
+resultv <- t.test(FDb.DbHFD9, MDb.DbHFD9, var.equal = TRUE)
+print(resultv)
+
+
+resultv_p <- c(resultv$p.value)
+adjusted_resultv_p <- p.adjust(resultv_p, method = "bonferroni")
+print("Adjusted p-values:")
+print(adjusted_resultv_p)
+
+
+
+
+
+
+print("F vs. M (HFD)—10wks")
+bartlett_resulth <- bartlett.test(list(FDb.DbHFD10, MDb.DbHFD10))
+print(bartlett_resulth)
+resulth <- t.test(FDb.DbHFD10, MDb.DbHFD10, var.equal = TRUE)
+print(resulth)
+
+
+resulth_p <- c(resulth$p.value)
+adjusted_resulth_p <- p.adjust(resulth_p, method = "bonferroni")
+print("Adjusted p-values:")
+print(adjusted_resulth_p)
+
+
+
+
+
+
+
+
+# ND vs. HFD (F)
+print("ND vs. HFD (F)")
+
+
+print("ND vs. HFD (F)—4wks")
+bartlett_resulti <- bartlett.test(list(FDb.DbND4, FDb.DbHFD4))
+print(bartlett_resulti)
+resulti <- t.test(FDb.DbND4, FDb.DbHFD4, var.equal = TRUE)
+print(resulti)
+
+
+resulti_p <- c(resulti$p.value)
+adjusted_resulti_p <- p.adjust(resulti_p, method = "bonferroni")
+print("Adjusted p-values:")
+print(adjusted_resulti_p)
+
+
+
+
+
+
+print("ND vs. HFD (F)—5wks")
+bartlett_resultw <- bartlett.test(list(FDb.DbND5, FDb.DbHFD5))
+print(bartlett_resultw)
+# resultw <- t.test(FDb.DbND5, FDb.DbHFD5, var.equal = TRUE)
+# print(resultw)
+
+
+resultw <- wilcox.test(FDb.DbND5, FDb.DbHFD5)
+print(resultw)
+
+
+resultw_p <- c(resultw$p.value)
+adjusted_resultw_p <- p.adjust(resultw_p, method = "bonferroni")
+print("Adjusted p-values:")
+print(adjusted_resultw_p)
+
+
+
+
+
+
+print("ND vs. HFD (F)—6wks")
+bartlett_resultj <- bartlett.test(list(FDb.DbND6, FDb.DbHFD6))
+print(bartlett_resultj)
+resultj <- t.test(FDb.DbND6, FDb.DbHFD6, var.equal = TRUE)
+print(resultj)
+
+
+resultj_p <- c(resultj$p.value)
+adjusted_resultj_p <- p.adjust(resultj_p, method = "bonferroni")
+print("Adjusted p-values:")
+print(adjusted_resultj_p)
+
+
+
+
+
+
+print("ND vs. HFD (F)—7wks")
+bartlett_resultx <- bartlett.test(list(FDb.DbND7, FDb.DbHFD7))
+print(bartlett_resultx)
+# resultx <- t.test(FDb.DbND7, FDb.DbHFD7, var.equal = TRUE)
+# print(resultx)
+
+
+resultx <- wilcox.test(FDb.DbND7, FDb.DbHFD7)
+print(resultx)
+
+
+resultx_p <- c(resultx$p.value)
+adjusted_resultx_p <- p.adjust(resultx_p, method = "bonferroni")
+print("Adjusted p-values:")
+print(adjusted_resultx_p)
+
+
+
+
+
+
+print("ND vs. HFD (F)—8wks")
+bartlett_resultk <- bartlett.test(list(FDb.DbND8, FDb.DbHFD8))
+print(bartlett_resultk)
+# resultk <- t.test(FDb.DbND8, FDb.DbHFD8, var.equal = TRUE)
+# print(resultk)
+
+
+resultk <- wilcox.test(FDb.DbND8, FDb.DbHFD8)
+print(resultk)
+
+
+resultk_p <- c(resultk$p.value)
+adjusted_resultk_p <- p.adjust(resultk_p, method = "bonferroni")
+print("Adjusted p-values:")
+print(adjusted_resultk_p)
+
+
+
+
+
+
+print("ND vs. HFD (F)—9wks")
+bartlett_resulty <- bartlett.test(list(FDb.DbND9, FDb.DbHFD9))
+print(bartlett_resulty)
+# resulty <- t.test(FDb.DbND9, FDb.DbHFD9, var.equal = TRUE)
+# print(resulty)
+
+
+resulty <- wilcox.test(FDb.DbND9, FDb.DbHFD9)
+print(resulty)
+
+
+resulty_p <- c(resulty$p.value)
+adjusted_resulty_p <- p.adjust(resulty_p, method = "bonferroni")
+print("Adjusted p-values:")
+print(adjusted_resulty_p)
+
+
+
+
+
+
+print("ND vs. HFD (F)—10wks")
+bartlett_resultl <- bartlett.test(list(FDb.DbND10, FDb.DbHFD10))
+print(bartlett_resultl)
+# resultl <- t.test(FDb.DbND10, FDb.DbHFD10, var.equal = TRUE)
+# print(resultl)
+
+
+resultl <- wilcox.test(FDb.DbND10, FDb.DbHFD10)
+print(resultl)
+
+
+resultl_p <- c(resultl$p.value)
+adjusted_resultl_p <- p.adjust(resultl_p, method = "bonferroni")
+print("Adjusted p-values:")
+print(adjusted_resultl_p)
+
+
+
+
+
+
+
+
+# ND vs. HFD (M)
+print("ND vs. HFD (M)")
+
+
+print("ND vs. HFD (M)—4wks")
+# bartlett_resultm <- bartlett.test(list(MDb.DbND4, MDb.DbHFD4))
+# print(bartlett_resultm)
+resultm <- t.test(MDb.DbND4, MDb.DbHFD4, var.equal = TRUE)
+print(resultm)
+
+
+resultm_p <- c(resultm$p.value)
+adjusted_resultm_p <- p.adjust(resultm_p, method = "bonferroni")
+print("Adjusted p-values:")
+print(adjusted_resultm_p)
+
+
+
+
+
+
+print("ND vs. HFD (M)—5wks")
+bartlett_resultz <- bartlett.test(list(MDb.DbND5, MDb.DbHFD5))
+print(bartlett_resultz)
+resultz <- t.test(MDb.DbND5, MDb.DbHFD5, var.equal = TRUE)
+print(resultz)
+
+
+resultz_p <- c(resultz$p.value)
+adjusted_resultz_p <- p.adjust(resultz_p, method = "bonferroni")
+print("Adjusted p-values:")
+print(adjusted_resultz_p)
+
+
+
+
+
+
+print("ND vs. HFD (M)—6wks")
+bartlett_resultn <- bartlett.test(list(MDb.DbND6, MDb.DbHFD6))
+print(bartlett_resultn)
+resultn <- t.test(MDb.DbND6, MDb.DbHFD6, var.equal = TRUE)
+print(resultn)
+
+
+resultn_p <- c(resultn$p.value)
+adjusted_resultn_p <- p.adjust(resultn_p, method = "bonferroni")
+print("Adjusted p-values:")
+print(adjusted_resultn_p)
+
+
+
+
+
+
+print("ND vs. HFD (M)—7wks")
+bartlett_resultaa <- bartlett.test(list(MDb.DbND7, MDb.DbHFD7))
+print(bartlett_resultaa)
+resultaa <- t.test(MDb.DbND7, MDb.DbHFD7, var.equal = TRUE)
+print(resultaa)
+
+
+resultaa_p <- c(resultaa$p.value)
+adjusted_resultaa_p <- p.adjust(resultaa_p, method = "bonferroni")
+print("Adjusted p-values:")
+print(adjusted_resultaa_p)
+
+
+
+
+
+
+print("ND vs. HFD (M)—8wks")
+bartlett_resulto <- bartlett.test(list(MDb.DbND8, MDb.DbHFD8))
+print(bartlett_resulto)
+resulto <- t.test(MDb.DbND8, MDb.DbHFD8, var.equal = TRUE)
+print(resulto)
+
+
+resulto_p <- c(resulto$p.value)
+adjusted_resulto_p <- p.adjust(resulto_p, method = "bonferroni")
+print("Adjusted p-values:")
+print(adjusted_resulto_p)
+
+
+
+
+
+
+print("ND vs. HFD (M)—9wks")
+bartlett_resultbb <- bartlett.test(list(MDb.DbND9, MDb.DbHFD9))
+print(bartlett_resultbb)
+resultbb <- t.test(MDb.DbND9, MDb.DbHFD9, var.equal = TRUE)
+print(resultbb)
+
+
+resultbb_p <- c(resultbb$p.value)
+adjusted_resultbb_p <- p.adjust(resultbb_p, method = "bonferroni")
+print("Adjusted p-values:")
+print(adjusted_resultbb_p)
+
+
+
+
+
+
+print("ND vs. HFD (M)—10wks")
+bartlett_resultp <- bartlett.test(list(MDb.DbND10, MDb.DbHFD10))
+print(bartlett_resultp)
+resultp <- t.test(MDb.DbND10, MDb.DbHFD10, var.equal = TRUE)
+print(resultp)
+
+
+resultp_p <- c(resultp$p.value)
+adjusted_resultp_p <- p.adjust(resultp_p, method = "bonferroni")
+print("Adjusted p-values:")
+print(adjusted_resultp_p)
